@@ -14,10 +14,12 @@ dic3 = {5:'e',6:'f'}
 dic2.update(dic3)
 dic1.update(dic2)
 print(dic1)
+output-{1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f'}
 
 17.
 s = input("enter any sentence of your choice")
 [len(x)for x in s.split()]
+output-
 
 16.
 word1 = 'house'
@@ -26,10 +28,13 @@ s1 = set(word1)
 s2 = set(word2)
 common = s1&s2
 print(common)
+output-{'e', 's', 'o', 'h'}
 
 15.
 word = input("input any word")
 print(word[::-1])
+output-input any wordesuoh
+house
 
 14.
 numbers = input("input some numbers which are separated by comma:")
@@ -37,6 +42,9 @@ list = numbers.split(",")
 tuple = tuple(list)
 print('list : ',list)
 print('tuple : ',tuple)
+output-input some numbers which are separated by comma:1,3,5,7,8
+list :  ['1', '3', '5', '7', '8']
+tuple :  ('1', '3', '5', '7', '8'
 
 13.
 Split method is used to return list of strings after breaking given string by specified separator
@@ -49,6 +57,8 @@ def add():
         dict1[i] = i*i
     print(dict1) 
 add()
+output-enter any number4
+{1: 1, 2: 4, 3: 9, 4: 16}
 
 11.
 10.
@@ -57,3 +67,23 @@ def foo(arg1,arg2,arg3):
     return arg1+arg2+arg3
 t = foo("innovation","with","python")
 print(t)
+output-innovationwithpython
+
+8.
+new_list = [1,2,3,4,5,6,["Riyaz","UI","Haque",7],8,9,10]
+new_list[-4]
+['Riyaz', 'UI', 'Haque', 7]
+
+new_list[4]
+5
+
+new_list[6][1]
+'UI'
+
+new_list.append(["new"])
+print(new_list)
+[1, 2, 3, 4, 5, 6, ['Riyaz', 'UI', 'Haque', 7], 8, 9, 10, ['new'], ['new']]
+
+new_list.sort()
+returns error- cannot sort string and list of integers together
+
