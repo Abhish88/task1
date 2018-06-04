@@ -19,7 +19,8 @@ output-{1: 'a', 2: 'b', 3: 'c', 4: 'd', 5: 'e', 6: 'f'}
 17.
 s = input("enter any sentence of your choice")
 [len(x)for x in s.split()]
-output-
+output- enter any sentence of your choicehi how are you
+[2, 3, 3, 3]
 
 16.
 word1 = 'house'
@@ -87,3 +88,13 @@ print(new_list)
 new_list.sort()
 returns error- cannot sort string and list of integers together
 
+7.
+6.
+5.
+4.
+3.
+2.
+s1 = int(input())
+print(type(s1))
+output-7
+<class 'int'>
