@@ -1,0 +1,59 @@
+20. 
+Difference between range and xrange function?
+In python2 range is classfied as a type list and xrange as xrange
+however in python3 range is classified as range and there exists no xrange
+the main difference between range and xrange in python2 is the sequence of elements(list) are executed once at a time in range.
+whereas in xrange is lazyily evaluated one at a time, one after another.
+
+
+19.
+18.
+dic1 = {1:'a',2:'b'}
+dic2 = {3:'c',4:'d'}
+dic3 = {5:'e',6:'f'}
+dic2.update(dic3)
+dic1.update(dic2)
+print(dic1)
+
+17.
+s = input("enter any sentence of your choice")
+[len(x)for x in s.split()]
+
+16.
+word1 = 'house'
+word2 = 'homes'
+s1 = set(word1)
+s2 = set(word2)
+common = s1&s2
+print(common)
+
+15.
+word = input("input any word")
+print(word[::-1])
+
+14.
+numbers = input("input some numbers which are separated by comma:")
+list = numbers.split(",")
+tuple = tuple(list)
+print('list : ',list)
+print('tuple : ',tuple)
+
+13.
+Split method is used to return list of strings after breaking given string by specified separator
+if nothing is specified as separator then it takes white space by default
+
+12.
+def add():
+    number = int(input("enter any number"))
+    for i in range(1,number+1):
+        dict1[i] = i*i
+    print(dict1) 
+add()
+
+11.
+10.
+9.
+def foo(arg1,arg2,arg3):
+    return arg1+arg2+arg3
+t = foo("innovation","with","python")
+print(t)
